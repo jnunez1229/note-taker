@@ -15,6 +15,8 @@
  *  The user can delete an existing note by clicking the trash icon to the right of the note the user wishes to delete.
 
  *  Link to Github Repository: (https://github.com/jnunez1229/note-taker)
+  
+  *  Link to Deployed Site: (https://infinite-badlands-64590.herokuapp.com/)
 
 ## Use
 
