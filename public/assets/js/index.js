@@ -57,7 +57,7 @@ const renderActiveNote = () => {
     noteTitle.setAttribute('readonly', true);
     noteText.setAttribute('readonly', true);
     noteTitle.value = activeNote.title;
-    noteText.value = activeNote.title;
+    noteText.value = activeNote.text;
   } else {
     noteTitle.value = '';
     noteText.value = '';
@@ -178,8 +178,4 @@ if (window.location.pathname === '/notes') {
 }
 
 getAndRenderNotes();
-
-module.exports = {
-  renderNoteList
-}
 
